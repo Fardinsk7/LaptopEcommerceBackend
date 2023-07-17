@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors")
 const connecttoMongo = require("./database/db")
+require("dotenv").config();
 
 const app = express();
 const port = process.env.PORT || 7000;
